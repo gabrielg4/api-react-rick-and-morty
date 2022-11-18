@@ -50,6 +50,22 @@ export const ContentCharacters = styled.div`
             filter: brightness(0.8);
         }
     }
+
+    @media (max-width: 991px) {
+        & > div {
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+    @media (max-width: 768px) {
+        & > div {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+    @media (max-width: 550px) {
+        & > div {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
 `;
 
 export const Loader = styled.div`
