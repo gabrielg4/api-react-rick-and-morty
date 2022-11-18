@@ -51,3 +51,16 @@ export const ContentCharacters = styled.div`
         }
     }
 `;
+
+export const Loader = styled.div`
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2022;
+    width: 100%;
+    height: 100vh;
+    background-color: #040011;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+`;
